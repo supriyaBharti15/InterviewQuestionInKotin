@@ -14,7 +14,7 @@ private fun swapNum() {
         println("value after change :: x = $x :: y= $y")
     }
 ```
-##  You have two number x=10, y=20 you need to swap these two number without using a temporary variable
+##  2. You have two number x=10, y=20 you need to swap these two number without using a temporary variable
 ```kotlin
  private fun swapNumWithoutTemp() {
         var x = 10
@@ -22,6 +22,7 @@ private fun swapNum() {
         println("value before change :: x = $x :: y= $y")
         x = x + y //30
         y = x - y //30-20=10
+         x = x - y
         println("value after change :: x = $x :: y= $y")
 
     }
