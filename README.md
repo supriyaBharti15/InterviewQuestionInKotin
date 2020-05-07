@@ -26,7 +26,7 @@ private fun swapNum() {
         println("value after change :: x = $x :: y= $y")
 
     }
-```
+`
 ## Is number even or odd ?
 ```kotlin
 private fun checkEvenOdd(num: Int) {
